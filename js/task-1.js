@@ -5,10 +5,10 @@ const customer = {
   discount: 0.1,
     orders: ["Burger", "Pizza", "Salad"],
   
-  getBalance(balance) {
+  getBalance() {
     return this.balance;
   },
-  getDiscount(discount) {
+  getDiscount() {
     return this.discount;
   },
   setDiscount(value) {
