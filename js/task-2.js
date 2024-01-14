@@ -18,7 +18,7 @@ class Storage {
   }
 }
 
-const storage = new Storage({ items: ["Nanitoids", "Prolonger", "Antigravitator"] });
+const storage = new Storage(["Nanitoids", "Prolonger", "Antigravitator"]);
 console.log(storage.getItems()); 
 
 storage.addItem("Droid");

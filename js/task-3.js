@@ -18,7 +18,7 @@ class StringBuilder {
     this.#value = str + this.#value + str;
   }
 }
-const builder = new StringBuilder({ initialValue: "." });
+const builder = new StringBuilder(".");
 console.log(builder.getValue()); // "."
 builder.padStart("^");
 console.log(builder.getValue()); // "^."
